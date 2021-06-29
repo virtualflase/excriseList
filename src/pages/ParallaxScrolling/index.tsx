@@ -26,7 +26,7 @@ const ParallaxScrolling: FC = () => {
 
         return () => {
             window.removeEventListener?.("scroll", (e) => {
-                Tracer.infoch("removeEventListener", 'e', e);
+                // Tracer.infoch("removeEventListener", 'e', e);
             });
         }
     }, [])

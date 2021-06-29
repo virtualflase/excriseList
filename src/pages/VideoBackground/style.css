@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main{
+  height: 1500px;
+
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.mainArea{
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin:0 auto;
+  text-align: center;
+
+
+  font-size: 4.5em;
+  /* 该变字体大小 */
+  text-transform: uppercase; 
+  color: #fff;
+}
