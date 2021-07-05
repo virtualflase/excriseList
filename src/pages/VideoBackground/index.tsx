@@ -1,8 +1,7 @@
-import Tracer from "@/components/Tracer"
 import React, { useEffect } from "react"
 import { FC } from "react"
-import styles from "./style.css"
-import "./style.css"
+import styles from "./style.less"
+import "./style.less"
 
 const VideoBackground: FC = () => {
     useEffect(() => {

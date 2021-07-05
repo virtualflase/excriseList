@@ -1,8 +1,9 @@
+import { Drawer } from 'antd';
 import React from 'react';
 import styles from './index.css';
-// import ParallaxScrolling from './ParallaxScrolling';
+import MyDrawer from './MyDrawer';
 import VideoBackground from './VideoBackground';
 
 export default function () {
-  return <VideoBackground />
+  return <MyDrawer />
 }
